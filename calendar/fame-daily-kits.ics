@@ -6,17 +6,29 @@ METHOD:PUBLISH
 X-WR-CALNAME:FAME daily kits
 BEGIN:VEVENT
 UID:fame-kit-2026-08-03@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260803T150000Z
 DTEND:20260803T153000Z
 SUMMARY:FAME kit 01/10 · X + Facebook · Get paid by link
-DESCRIPTION:DAILY KIT 1 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nGet paid 
- by link\n\nWHY THIS SLOT\nFreelancer push. Week 5 playbook action 3\, st
- ill unrun. Segment 2 has had nothing since 16 July.\n\nSTATUS\nFinal pos
- t text and the card link get filled in during the morning shift the day 
- before\, after the claim is verified in code. Nothing here is posted unv
- erified.
+DESCRIPTION:DAILY KIT 1 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Get paid by link\n\
+ nCARD (open\, then long press to save):\nhttps://raw.githubusercontent.c
+ om/bilalprof/algofame-assets/main/kits/get-paid-by-link.jpg\n\nX POST\n_
+ _____________________________\n\nA freelancer should not have to explain
+  a wallet to get paid.\n\nFAME payment requests are one link. You set th
+ e amount\, you send it however you already talk to the client\, and they
+  pay it.\n\nIf they are not on FAME\, the same link invites them in. Nob
+ ody installs anything before agreeing to pay.\n\nTen cents flat\, settle
+ d straight to you.\n\nalgofame.org\n______________________________\n\n\n
+ FACEBOOK POST\n______________________________\n\nGetting paid should not
+  be the hard part of the job.\n\nWith FAME you create a payment request\
+ , set the amount\, and send the link. Your client opens it and pays. Tha
+ t is the whole thing.\n\nThey do not need an account first. If they have
+  never heard of FAME\, the same link gets them started\, and the money s
+ till comes straight to you.\n\nOur fee is ten cents\, flat\, whatever th
+ e invoice.\n\nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /get-paid-by-link.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -27,18 +39,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-04@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260804T150000Z
 DTEND:20260804T153000Z
 SUMMARY:FAME kit 02/10 · X + Facebook · Guardians: envelopes and passwo
  rds
-DESCRIPTION:DAILY KIT 2 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nGuardians
- : envelopes and passwords\n\nWHY THIS SLOT\nThe reorganised guardians pa
- ge\, shipped and live after this week's deploys.\n\nSTATUS\nFinal post t
- ext and the card link get filled in during the morning shift the day bef
- ore\, after the claim is verified in code. Nothing here is posted unveri
- fied.
+DESCRIPTION:DAILY KIT 2 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Guardians: envelope
+ s and passwords\n\nCARD (open\, then long press to save):\nhttps://raw.g
+ ithubusercontent.com/bilalprof/algofame-assets/main/kits/guardians-envel
+ opes.jpg\n\nX POST\n______________________________\n\nA guardian is one 
+ person with two powers.\n\nA recovery code gets somebody back into their
+  account.\n\nAn envelope pre-approves one cash withdrawal. One agent\, o
+ ne day\, one limit\, revocable until it is used.\n\nThe guardians page n
+ ow leads with whoever is waiting on you right now\, because someone stan
+ ding at a counter cannot wait for you to scroll.\n\nalgofame.org\n______
+ ________________________\n\n\nFACEBOOK POST\n___________________________
+ ___\n\nIf you are somebody's guardian\, there are two things you can han
+ d them.\n\nA recovery code\, which gets them back into their account if 
+ they are locked out.\n\nAn envelope\, which approves one cash withdrawal
+  in advance. One shop\, one day\, one limit. You can cancel it right up 
+ until it is used.\n\nWe rebuilt the page so the person actually waiting 
+ on you appears first\, above everything else. Someone standing at a coun
+ ter should never be at the bottom of a list.\n\nalgofame.org\n__________
+ ____________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /guardians-envelopes.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -49,18 +75,34 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-05@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260805T150000Z
 DTEND:20260805T153000Z
 SUMMARY:FAME kit 03/10 · X + Facebook · Cutting off an agent vs ending 
  the tier
-DESCRIPTION:DAILY KIT 3 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nCutting o
- ff an agent vs ending the tier\n\nWHY THIS SLOT\nThe reversibility disti
- nction. A guardian can cut off a counter\; only the member can end the t
- ier. Never posted.\n\nSTATUS\nFinal post text and the card link get fill
- ed in during the morning shift the day before\, after the claim is verif
- ied in code. Nothing here is posted unverified.
+DESCRIPTION:DAILY KIT 3 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Cutting off an agen
+ t vs ending the tier\n\nCARD (open\, then long press to save):\nhttps://
+ raw.githubusercontent.com/bilalprof/algofame-assets/main/kits/cut-off-vs
+ -end.jpg\n\nX POST\n______________________________\n\nTwo ways to leave 
+ a counter\, and only one is reversible.\n\nA guardian can cut off a memb
+ er's agent alone\, without being asked. The vault carries forward\, so t
+ he same four digits work at any other shop tomorrow.\n\nEnding the assis
+ ted tier is final\, and only the member can do it\, from their own sessi
+ on.\n\nA guardian is the person who can help you. Never the person who c
+ an strand you.\n\nalgofame.org\n______________________________\n\n\nFACE
+ BOOK POST\n______________________________\n\nThere are two different way
+ s to walk away from a shop\, and we deliberately gave them to different 
+ people.\n\nA guardian can cut off the counter someone is using\, on thei
+ r own\, without waiting to be asked. Nothing is lost. The same PIN works
+  at any other shop the next day. That is what makes it safe to give a gu
+ ardian.\n\nEnding the assisted tier completely is permanent\, and for so
+ meone without a smartphone it means losing access to their money until t
+ hey get one. So only the member can do that\, and only from their own se
+ ssion.\n\nA guardian is the person who can help you\, not the person who
+  can strand you.\n\nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /cut-off-vs-end.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -71,17 +113,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-06@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260806T150000Z
 DTEND:20260806T153000Z
 SUMMARY:FAME kit 04/10 · X + Facebook · CI and the reliability week
-DESCRIPTION:DAILY KIT 4 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nCI and th
- e reliability week\n\nWHY THIS SLOT\nDeveloper credibility. CI shipped 2
- 8 July\, plus four reliability fixes on 30 and 31 July.\n\nSTATUS\nFinal
-  post text and the card link get filled in during the morning shift the 
- day before\, after the claim is verified in code. Nothing here is posted
-  unverified.
+DESCRIPTION:DAILY KIT 4 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: CI and the reliabil
+ ity week\n\nCARD (open\, then long press to save):\nhttps://raw.githubus
+ ercontent.com/bilalprof/algofame-assets/main/kits/ci-reliability.jpg\n\n
+ X POST\n______________________________\n\nA bug in our money logic once 
+ shipped and sat live for a day before a human caught it.\n\nHumans do no
+ t run on the next change. Tests do.\n\nEvery push now runs typecheck\, e
+ very workspace test including the SQL gates\, and every build. No secret
+ s in CI\, so it can never touch real funds. Red does not deploy.\n\nFour
+  reliability fixes landed this week on top of it.\n\nalgofame.org\n_____
+ _________________________\n\n\nFACEBOOK POST\n__________________________
+ ____\n\nSome honesty about how we build this.\n\nLast month a bug in our
+  savings-circle logic got through review and stayed live for a day befor
+ e somebody spotted it. Nothing was lost\, but that was luck rather than 
+ process.\n\nThe fix was not to review harder. A person reviewing careful
+ ly today does not protect you from the change somebody makes next month.
+  So now every single push runs the full test suite and every build autom
+ atically\, and anything failing simply does not go out.\n\nWe also turne
+ d that specific bug into a permanent test\, so it can never come back.\n
+ \nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /ci-reliability.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -92,16 +149,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-07@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260807T150000Z
 DTEND:20260807T153000Z
 SUMMARY:FAME kit 05/10 · X + Facebook · Circles\, organizer direct
-DESCRIPTION:DAILY KIT 5 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nCircles\,
-  organizer direct\n\nWHY THIS SLOT\nSegment 1. Rotation back to the warm
-  feature after a technical run.\n\nSTATUS\nFinal post text and the card 
- link get filled in during the morning shift the day before\, after the c
- laim is verified in code. Nothing here is posted unverified.
+DESCRIPTION:DAILY KIT 5 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Circles\, organizer
+  direct\n\nCARD (open\, then long press to save):\nhttps://raw.githubuse
+ rcontent.com/bilalprof/algofame-assets/main/kits/circles-organizer.jpg\n
+ \nX POST\n______________________________\n\nMost savings circles need so
+ mebody to hold the pot.\n\nThat person is trusted\, and also exposed. If
+  they are robbed\, or pressured\, or simply unlucky\, everybody's money 
+ is in one place.\n\nFAME circles have no pot. Each contribution goes str
+ aight to whoever is owed that round\, settled on chain\, visible to ever
+ yone in the circle.\n\nNobody has to be trusted to pass it along.\n\nalg
+ ofame.org\n______________________________\n\n\nFACEBOOK POST\n__________
+ ____________________\n\nThe oldest way to save together is for everyone 
+ to pay into a pot each month\, and one person takes the pot.\n\nIt works
+ \, and it has one weak point. Somebody has to hold the money. That perso
+ n carries a risk nobody asked them to carry\, and if anything happens to
+  them it happens to everyone.\n\nFAME circles remove the pot entirely. W
+ hen your turn comes\, everyone pays you directly. The money never sits a
+ nywhere in between\, not even with us.\n\nEveryone in the circle can see
+  who has paid and what is still owed\, so nobody has to chase anybody.\n
+ \nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /circles-organizer.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -112,16 +185,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-10@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260810T150000Z
 DTEND:20260810T153000Z
 SUMMARY:FAME kit 06/10 · X + Facebook · Hybrid chat encryption
-DESCRIPTION:DAILY KIT 6 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nHybrid ch
- at encryption\n\nWHY THIS SLOT\nML-KEM-768 alongside X25519. Pairs with 
- the series without repeating it.\n\nSTATUS\nFinal post text and the card
-  link get filled in during the morning shift the day before\, after the 
- claim is verified in code. Nothing here is posted unverified.
+DESCRIPTION:DAILY KIT 6 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Hybrid chat encrypt
+ ion\n\nCARD (open\, then long press to save):\nhttps://raw.githubusercon
+ tent.com/bilalprof/algofame-assets/main/kits/hybrid-chat-encryption.jpg\
+ n\nX POST\n______________________________\n\nFAME chat agrees its keys t
+ wo ways at once.\n\nX25519\, the classical scheme with decades of scruti
+ ny behind it. And ML-KEM-768\, the post-quantum one NIST selected.\n\nAn
+  attacker has to break both. Either alone is a bet on which kind of comp
+ uter arrives first\, and we would rather not bet.\n\nKeys are generated 
+ on your device and never reach us.\n\nalgofame.org\n____________________
+ __________\n\n\nFACEBOOK POST\n______________________________\n\nA short
+  note on how your messages in FAME are protected.\n\nEvery conversation 
+ key is agreed using two completely different methods at the same time. O
+ ne is the standard used across the internet today. The other is a newer 
+ one designed to survive quantum computers.\n\nAnyone trying to read your
+  messages has to defeat both. Breaking one gets them nothing.\n\nWe do i
+ t this way because picking only one would be a guess about which threat 
+ shows up first\, and your family's conversations are not something to gu
+ ess with.\n\nThe keys are made on your phone and never reach our servers
+ .\n\nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /hybrid-chat-encryption.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -132,16 +221,30 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-11@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260811T150000Z
 DTEND:20260811T153000Z
 SUMMARY:FAME kit 07/10 · X + Facebook · Send money to any phone number
-DESCRIPTION:DAILY KIT 7 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nSend mone
- y to any phone number\n\nWHY THIS SLOT\nConsumer\, high reach\, evergree
- n.\n\nSTATUS\nFinal post text and the card link get filled in during the
-  morning shift the day before\, after the claim is verified in code. Not
- hing here is posted unverified.
+DESCRIPTION:DAILY KIT 7 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Send money to any p
+ hone number\n\nCARD (open\, then long press to save):\nhttps://raw.githu
+ busercontent.com/bilalprof/algofame-assets/main/kits/send-to-phone-numbe
+ r.jpg\n\nX POST\n______________________________\n\nNobody memorises a wa
+ llet address\, and nobody should have to ask their mother for one.\n\nIn
+  FAME you send to a phone number. The one you would have called anyway.\
+ n\nIf they are not a member yet\, the money waits for them and a link br
+ ings them in. It is already theirs when they arrive.\n\nTen cents flat\,
+  whatever the amount.\n\nalgofame.org\n______________________________\n\
+ n\nFACEBOOK POST\n______________________________\n\nSending money to fam
+ ily should be as easy as calling them.\n\nIn FAME you pick a phone numbe
+ r\, type the amount\, and send. That is it. No long strings of letters t
+ o copy\, no asking anyone for an address.\n\nIf the person you are sendi
+ ng to has not joined yet\, the money waits for them\, and the link you s
+ end brings them in. When they open their account it is already there.\n\
+ nTen cents\, flat\, no matter how much you send or which country it cros
+ ses.\n\nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /send-to-phone-number.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -152,16 +255,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-12@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260812T150000Z
 DTEND:20260812T153000Z
 SUMMARY:FAME kit 08/10 · X + Facebook · Cancel a stuck cash-out
-DESCRIPTION:DAILY KIT 8 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nCancel a 
- stuck cash-out\n\nWHY THIS SLOT\nSmall\, but it is the honest "things go
-  wrong and here is the way out" post.\n\nSTATUS\nFinal post text and the
-  card link get filled in during the morning shift the day before\, after
-  the claim is verified in code. Nothing here is posted unverified.
+DESCRIPTION:DAILY KIT 8 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Cancel a stuck cash
+ -out\n\nCARD (open\, then long press to save):\nhttps://raw.githubuserco
+ ntent.com/bilalprof/algofame-assets/main/kits/cancel-stuck-cashout.jpg\n
+ \nX POST\n______________________________\n\nThe honest test of a money a
+ pp is what happens when it does not work.\n\nA cash-out at a counter can
+  hang. Bad network\, a queue\, a change of mind. You can cancel it\, and
+  nothing has moved.\n\nNo transfer\, no fee\, and the guardian's envelop
+ e is still intact\, so she can come back that afternoon.\n\nClosing the 
+ screen does not leave it hanging either.\n\nalgofame.org\n______________
+ ________________\n\n\nFACEBOOK POST\n______________________________\n\nW
+ e spend a lot of time on the moments when things go wrong.\n\nPicture so
+ meone at a shop counter collecting cash\, and the network drops halfway 
+ through. Or the queue is long and she decides to come back later.\n\nTha
+ t has to be safe. So a cash-out can be cancelled while it is in progress
+ \, and nothing has moved. No money transferred\, no fee taken\, and the 
+ approval her son left is still there unused\, so she can walk back in th
+ at afternoon and do it properly.\n\nAn app that only works when everythi
+ ng goes right is not finished.\n\nalgofame.org\n________________________
+ ______\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /cancel-stuck-cashout.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -172,18 +291,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-13@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260813T150000Z
 DTEND:20260813T153000Z
 SUMMARY:FAME kit 09/10 · X + Facebook · Ten cents flat\, the remittance
   gap
-DESCRIPTION:DAILY KIT 9 OF 10\nChannels: FAME X and FAME Facebook. Linked
- In is taken by the First Principles series at 15:00.\n\nTOPIC\nTen cents
-  flat\, the remittance gap\n\nWHY THIS SLOT\nDeliberately the same day a
- s chapter 9 on locks\, so the feed carries both the price argument and t
- he time argument.\n\nSTATUS\nFinal post text and the card link get fille
- d in during the morning shift the day before\, after the claim is verifi
- ed in code. Nothing here is posted unverified.
+DESCRIPTION:DAILY KIT 9 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: Ten cents flat\, th
+ e remittance gap\n\nCARD (open\, then long press to save):\nhttps://raw.
+ githubusercontent.com/bilalprof/algofame-assets/main/kits/ten-cents-flat
+ .jpg\n\nX POST\n______________________________\n\nSending twenty dollars
+  home should not cost like sending two thousand.\n\nPercentages punish t
+ he smallest transfers hardest\, which is exactly backwards.\n\nFAME char
+ ges ten cents. Flat\, whatever the amount\, whatever the border. Network
+  fees are ours. There is no shaved exchange rate hiding a second fee.\n\
+ nNothing about carrying a number gets harder because the places are far 
+ apart.\n\nalgofame.org\n______________________________\n\n\nFACEBOOK POS
+ T\n______________________________\n\nHere is what it costs to send twent
+ y dollars home with FAME.\n\nThey receive twenty dollars. Our fee is ten
+  cents. The network fee is zero\, because we pay it.\n\nThat is the whol
+ e list. No percentage\, no second fee buried in the exchange rate\, no c
+ harge that grows because the money crossed a border.\n\nWe charge a flat
+  fee because a percentage takes the most from the people sending the lea
+ st\, and that has never made sense to us.\n\nalgofame.org\n_____________
+ _________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /ten-cents-flat.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -194,16 +327,30 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fame-kit-2026-08-14@algofame.org
-DTSTAMP:20260731T140000Z
+DTSTAMP:20260731T150000Z
 DTSTART:20260814T150000Z
 DTEND:20260814T153000Z
 SUMMARY:FAME kit 10/10 · X + Facebook · The community hive
-DESCRIPTION:DAILY KIT 10 OF 10\nChannels: FAME X and FAME Facebook. Linke
- dIn is taken by the First Principles series at 15:00.\n\nTOPIC\nThe comm
- unity hive\n\nWHY THIS SLOT\nCloses the fortnight on people rather than 
- mechanism.\n\nSTATUS\nFinal post text and the card link get filled in du
- ring the morning shift the day before\, after the claim is verified in c
- ode. Nothing here is posted unverified.
+DESCRIPTION:DAILY KIT 10 OF 10\nChannels: FAME X and FAME Facebook.\nLink
+ edIn is taken by First Principles at 15:00.\n\nTOPIC: The community hive
+ \n\nCARD (open\, then long press to save):\nhttps://raw.githubuserconten
+ t.com/bilalprof/algofame-assets/main/kits/community-hive.jpg\n\nX POST\n
+ ______________________________\n\nIn FAME a person is always a hexagon.\
+ n\nYour rooms and circles are drawn as one interlocking honeycomb\, and 
+ everyone keeps the same colour and initials everywhere they appear.\n\nI
+ t is a small thing that does real work. You recognise somebody before yo
+ u read their name\, and nobody is ever a stranger twice.\n\nalgofame.org
+ \n______________________________\n\n\nFACEBOOK POST\n___________________
+ ___________\n\nA small design decision we care about more than we probab
+ ly should.\n\nIn FAME\, every person is shown as a hexagon\, and your gr
+ oups sit together as a honeycomb. Everyone keeps the same colour and the
+  same initials wherever they turn up\, in a circle\, in your contacts\, 
+ at a counter.\n\nThe reason is simple. People recognise a shape and a co
+ lour faster than they read a name\, and a lot of the people we build for
+  are not reading quickly. Getting that right means somebody is never a s
+ tranger twice.\n\nalgofame.org\n______________________________\n
+URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
+ /community-hive.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
