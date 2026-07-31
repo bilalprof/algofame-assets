@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FAME//Marketing kit blocks//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FAME daily kits
+BEGIN:VEVENT
+UID:fame-kit-2026-08-03@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260803T150000Z
+DTEND:20260803T153000Z
+SUMMARY:FAME kit 01/10 · X + Facebook · Get paid by link
+DESCRIPTION:DAILY KIT 1 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nGet paid 
+ by link\n\nWHY THIS SLOT\nFreelancer push. Week 5 playbook action 3\, st
+ ill unrun. Segment 2 has had nothing since 16 July.\n\nSTATUS\nFinal pos
+ t text and the card link get filled in during the morning shift the day 
+ before\, after the claim is verified in code. Nothing here is posted unv
+ erified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-04@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260804T150000Z
+DTEND:20260804T153000Z
+SUMMARY:FAME kit 02/10 · X + Facebook · Guardians: envelopes and passwo
+ rds
+DESCRIPTION:DAILY KIT 2 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nGuardians
+ : envelopes and passwords\n\nWHY THIS SLOT\nThe reorganised guardians pa
+ ge\, shipped and live after this week's deploys.\n\nSTATUS\nFinal post t
+ ext and the card link get filled in during the morning shift the day bef
+ ore\, after the claim is verified in code. Nothing here is posted unveri
+ fied.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-05@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260805T150000Z
+DTEND:20260805T153000Z
+SUMMARY:FAME kit 03/10 · X + Facebook · Cutting off an agent vs ending 
+ the tier
+DESCRIPTION:DAILY KIT 3 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nCutting o
+ ff an agent vs ending the tier\n\nWHY THIS SLOT\nThe reversibility disti
+ nction. A guardian can cut off a counter\; only the member can end the t
+ ier. Never posted.\n\nSTATUS\nFinal post text and the card link get fill
+ ed in during the morning shift the day before\, after the claim is verif
+ ied in code. Nothing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-06@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260806T150000Z
+DTEND:20260806T153000Z
+SUMMARY:FAME kit 04/10 · X + Facebook · CI and the reliability week
+DESCRIPTION:DAILY KIT 4 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nCI and th
+ e reliability week\n\nWHY THIS SLOT\nDeveloper credibility. CI shipped 2
+ 8 July\, plus four reliability fixes on 30 and 31 July.\n\nSTATUS\nFinal
+  post text and the card link get filled in during the morning shift the 
+ day before\, after the claim is verified in code. Nothing here is posted
+  unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-07@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260807T150000Z
+DTEND:20260807T153000Z
+SUMMARY:FAME kit 05/10 · X + Facebook · Circles\, organizer direct
+DESCRIPTION:DAILY KIT 5 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nCircles\,
+  organizer direct\n\nWHY THIS SLOT\nSegment 1. Rotation back to the warm
+  feature after a technical run.\n\nSTATUS\nFinal post text and the card 
+ link get filled in during the morning shift the day before\, after the c
+ laim is verified in code. Nothing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-10@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260810T150000Z
+DTEND:20260810T153000Z
+SUMMARY:FAME kit 06/10 · X + Facebook · Hybrid chat encryption
+DESCRIPTION:DAILY KIT 6 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nHybrid ch
+ at encryption\n\nWHY THIS SLOT\nML-KEM-768 alongside X25519. Pairs with 
+ the series without repeating it.\n\nSTATUS\nFinal post text and the card
+  link get filled in during the morning shift the day before\, after the 
+ claim is verified in code. Nothing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-11@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260811T150000Z
+DTEND:20260811T153000Z
+SUMMARY:FAME kit 07/10 · X + Facebook · Send money to any phone number
+DESCRIPTION:DAILY KIT 7 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nSend mone
+ y to any phone number\n\nWHY THIS SLOT\nConsumer\, high reach\, evergree
+ n.\n\nSTATUS\nFinal post text and the card link get filled in during the
+  morning shift the day before\, after the claim is verified in code. Not
+ hing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-12@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260812T150000Z
+DTEND:20260812T153000Z
+SUMMARY:FAME kit 08/10 · X + Facebook · Cancel a stuck cash-out
+DESCRIPTION:DAILY KIT 8 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nCancel a 
+ stuck cash-out\n\nWHY THIS SLOT\nSmall\, but it is the honest "things go
+  wrong and here is the way out" post.\n\nSTATUS\nFinal post text and the
+  card link get filled in during the morning shift the day before\, after
+  the claim is verified in code. Nothing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-13@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260813T150000Z
+DTEND:20260813T153000Z
+SUMMARY:FAME kit 09/10 · X + Facebook · Ten cents flat\, the remittance
+  gap
+DESCRIPTION:DAILY KIT 9 OF 10\nChannels: FAME X and FAME Facebook. Linked
+ In is taken by the First Principles series at 15:00.\n\nTOPIC\nTen cents
+  flat\, the remittance gap\n\nWHY THIS SLOT\nDeliberately the same day a
+ s chapter 9 on locks\, so the feed carries both the price argument and t
+ he time argument.\n\nSTATUS\nFinal post text and the card link get fille
+ d in during the morning shift the day before\, after the claim is verifi
+ ed in code. Nothing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fame-kit-2026-08-14@algofame.org
+DTSTAMP:20260731T140000Z
+DTSTART:20260814T150000Z
+DTEND:20260814T153000Z
+SUMMARY:FAME kit 10/10 · X + Facebook · The community hive
+DESCRIPTION:DAILY KIT 10 OF 10\nChannels: FAME X and FAME Facebook. Linke
+ dIn is taken by the First Principles series at 15:00.\n\nTOPIC\nThe comm
+ unity hive\n\nWHY THIS SLOT\nCloses the fortnight on people rather than 
+ mechanism.\n\nSTATUS\nFinal post text and the card link get filled in du
+ ring the morning shift the day before\, after the claim is verified in c
+ ode. Nothing here is posted unverified.
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FAME daily kit
+END:VALARM
+END:VEVENT
+END:VCALENDAR
