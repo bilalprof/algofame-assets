@@ -224,27 +224,30 @@ UID:fame-kit-2026-08-11@algofame.org
 DTSTAMP:20260731T150000Z
 DTSTART:20260811T150000Z
 DTEND:20260811T153000Z
-SUMMARY:FAME kit 07/10 · X + Facebook · Send money to any phone number
+SUMMARY:FAME kit 07/10 · X + Facebook · An account is a person\, not a 
+ handset
 DESCRIPTION:DAILY KIT 7 OF 10\nChannels: FAME X and FAME Facebook.\nLinke
- dIn is taken by First Principles at 15:00.\n\nTOPIC: Send money to any p
- hone number\n\nCARD (open\, then long press to save):\nhttps://raw.githu
- busercontent.com/bilalprof/algofame-assets/main/kits/send-to-phone-numbe
- r.jpg\n\nX POST\n______________________________\n\nNobody memorises a wa
- llet address\, and nobody should have to ask their mother for one.\n\nIn
-  FAME you send to a phone number. The one you would have called anyway.\
- n\nIf they are not a member yet\, the money waits for them and a link br
- ings them in. It is already theirs when they arrive.\n\nTen cents flat\,
-  whatever the amount.\n\nalgofame.org\n______________________________\n\
- n\nFACEBOOK POST\n______________________________\n\nSending money to fam
- ily should be as easy as calling them.\n\nIn FAME you pick a phone numbe
- r\, type the amount\, and send. That is it. No long strings of letters t
- o copy\, no asking anyone for an address.\n\nIf the person you are sendi
- ng to has not joined yet\, the money waits for them\, and the link you s
- end brings them in. When they open their account it is already there.\n\
- nTen cents\, flat\, no matter how much you send or which country it cros
- ses.\n\nalgofame.org\n______________________________\n
+ dIn is taken by First Principles at 15:00.\n\nTOPIC: An account is a per
+ son\, not a handset\n\nCARD (open\, then long press to save):\nhttps://r
+ aw.githubusercontent.com/bilalprof/algofame-assets/main/kits/send-to-a-p
+ erson.jpg\n\nX POST\n______________________________\n\nAn account is a p
+ erson. Not a handset.\n\nSend to the number you already know. A phone nu
+ mber if they have one\, a FAME number if they do not\, and the same fiel
+ d takes either without being told which.\n\nA mother who owns no phone s
+ till has an account you can pay. That was always true in the code. Until
+  this week our own words did not say so.\n\nTen cents flat\, whatever th
+ e amount.\n\nalgofame.org\n______________________________\n\n\nFACEBOOK 
+ POST\n______________________________\n\nSending money to family should b
+ e as easy as calling them\, and it should not depend on them owning a ph
+ one.\n\nIn FAME you send to a person. If they have a phone number\, use 
+ it. If they do not own a phone at all\, they have a FAME number instead\
+ , and it goes in exactly the same box.\n\nThat has been true in the app 
+ since the day it shipped. Our own website was the last place still sayin
+ g a phone number was required\, and we fixed that this week.\n\nTen cent
+ s\, flat\, no matter how much you send or which border it crosses.\n\nal
+ gofame.org\n______________________________\n
 URL:https://raw.githubusercontent.com/bilalprof/algofame-assets/main/kits
- /send-to-phone-number.jpg
+ /send-to-a-person.jpg
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 BEGIN:VALARM
