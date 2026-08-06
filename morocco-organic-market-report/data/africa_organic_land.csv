@@ -1,0 +1,55 @@
+country,region,organic_ag_land_ha,land_data_year,organic_share_pct,share_data_year,producers,producers_year,wild_collection_ha,wild_year,flagship_organic_products,grade,source_ref
+Uganda,East,505308,2024,1.8,n.s.,404246,2023,,,"Coffee, cocoa, cotton, sesame, vanilla, shea, spices",B,S1;S2;S8
+Burkina Faso,West,251000,2024,,,,,,,"Cotton, sesame, shea, mango",B,S1
+Ethiopia,East,227000,2024,,,121480,2023,,,"Coffee (>160000 ha organic), oilseeds",B,S1;S8
+Togo,West,225000,2024,,,,,,,"Soybeans (EU's no.1 supplier), pineapple, cashew",B,S1;S12
+Tunisia,North,279389,n.s.,2.87,n.s.,,,,,"Olive oil (93% of organic ha), dates",C,S9
+Tanzania,East,278500,2019,,,148000,n.s.,2400000,2017,"Cashew, coffee, tea, spices, beekeeping",C,S11;S16
+Kenya,East,127000,n.s.,,,,,,,"Macadamia and other nuts, coconut",C,S17
+Egypt,North,105908,2016,2.8,n.s.,,,,,"Herbs and spices, dates",C,S11;S15
+Morocco,North,13325,2023,,,,,273000,2017/18,"Argan (wild), citrus, aromatic and medicinal plants, vegetables, olive oil",B,S13;S14
+DR Congo,Central,,,,,118000,2023,,,Cocoa,B,S8
+Zambia,Southern,,,,,,,5900000,2017,Honey / beekeeping,C,S11
+Namibia,Southern,,,,,,,1300000,2017,Devil's claw,C,S11
+South Africa,Southern,,,,,,,1300000,2017,Devil's claw,C,S11
+Mozambique,Southern,,,,,,,844000,2017,Coconut,C,S11
+Somalia,East,,,,,,,807000,2017,Natural gums,C,S11
+São Tomé and Príncipe,Central,,,21.1,2023,,,,,Cocoa,B,S3
+Sierra Leone,West,,,,,,,,,Cocoa (Africa's no.1 organic cocoa exporter),B,S25
+Madagascar,East,,,,,,,,,"Cocoa, vanilla (vanilla unsourced)",C,S25
+Cameroon,Central,,,,,,,,,Cocoa (no organic cocoa exported in 2024),B,S25
+Algeria,North,,,,,,,,,no data reported,-,
+Angola,Southern,,,,,,,,,no data reported,-,
+Benin,West,,,,,,,,,no data reported,-,
+Botswana,Southern,,,,,,,,,no data reported,-,
+Burundi,East,,,,,,,,,no data reported,-,
+Cabo Verde,West,,,,,,,,,no data reported,-,
+Central African Republic,Central,,,,,,,,,no data reported,-,
+Chad,Central,,,,,,,,,no data reported,-,
+Comoros,East,,,,,,,,,no data reported,-,
+Congo,Central,,,,,,,,,no data reported,-,
+Côte d’Ivoire,West,,,,,,,,,cocoa (no organic-specific figure retrieved),-,
+Djibouti,East,,,,,,,,,no data reported,-,
+Equatorial Guinea,Central,,,,,,,,,no data reported,-,
+Eritrea,East,,,,,,,,,no data reported,-,
+Eswatini,Southern,,,,,,,,,no data reported,-,
+Gabon,Central,,,,,,,,,no data reported,-,
+Gambia,West,,,,,,,,,no data reported,-,
+Ghana,West,,,,,,,,,cocoa (no organic-specific figure retrieved),-,
+Guinea,West,,,,,,,,,no data reported,-,
+Guinea-Bissau,West,,,,,,,,,no data reported,-,
+Lesotho,Southern,,,,,,,,,no data reported,-,
+Liberia,West,,,,,,,,,no data reported,-,
+Libya,North,,,,,,,,,no data reported,-,
+Malawi,Southern,,,,,,,,,no data reported,-,
+Mali,West,,,,,,,,,no data reported,-,
+Mauritania,West,,,,,,,,,no data reported,-,
+Mauritius,East,,,,,,,,,no data reported,-,
+Niger,West,,,,,,,,,no data reported,-,
+Nigeria,West,,,,,,,,,no data reported,-,
+Rwanda,East,,,,,,,,,no data reported,-,
+Senegal,West,,,,,,,,,no data reported,-,
+Seychelles,East,,,,,,,,,no data reported,-,
+South Sudan,East,,,,,,,,,no data reported,-,
+Sudan,North,,,,,,,,,no data reported,-,
+Zimbabwe,Southern,,,,,,,,,no data reported,-,

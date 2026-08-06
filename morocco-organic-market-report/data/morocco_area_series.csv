@@ -1,0 +1,8 @@
+year,cultivated_ha,in_conversion_ha,wild_collection_ha,total_ha,basis,grade,source_ref,note
+2011,4000,,,,national contrat-programme baseline,C,M17,Baseline stated in the 2011 State-AMABIO contrat-programme
+2015,8046,1840,861690,870000,ISOFAR country report,C,M7,Wild-collection figure appears to count the whole certified argan forest
+2017/18,9500,1000,273000,282480,ONCA / ministry campaign data,B,M8;M9;M10,The most frequently recycled Moroccan figure
+2019,11000,,,,national press,C,M9,A parallel 14000 ha appears as the 2023 contrat-programme baseline
+2021,18000,,,,national press,C,M12;M13,">650 certified operators reported at the same date"
+2022,18531,,201728,220259,FiBL series / ministry indicators,B,M1;M14,Series peak
+2023,13325,,,,FiBL series,B,M1;S13,-28.1% on 2022; the figure Moroccan media later re-published as "2025"

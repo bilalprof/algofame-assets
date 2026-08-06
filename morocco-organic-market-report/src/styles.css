@@ -1,0 +1,414 @@
+/* ==========================================================================
+   Morocco Organic Market Report — print stylesheet (WeasyPrint / CSS Paged Media)
+   Typefaces: Spectral (serif body), IBM Plex Sans Condensed (UI/headings/tables)
+   Chart colours follow the validated categorical palette (light surface).
+   ========================================================================== */
+
+@font-face { font-family: "Spectral"; src: url("fonts/Spectral-Regular.ttf");  font-weight: 400; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("fonts/Spectral-Italic.ttf");   font-weight: 400; font-style: italic; }
+@font-face { font-family: "Spectral"; src: url("fonts/Spectral-Medium.ttf");   font-weight: 500; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("fonts/Spectral-SemiBold.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("fonts/Spectral-Bold.ttf");     font-weight: 700; font-style: normal; }
+
+@font-face { font-family: "PlexCn"; src: url("fonts/PlexCn-Regular.ttf");  font-weight: 400; font-style: normal; }
+@font-face { font-family: "PlexCn"; src: url("fonts/PlexCn-Italic.ttf");   font-weight: 400; font-style: italic; }
+@font-face { font-family: "PlexCn"; src: url("fonts/PlexCn-Medium.ttf");   font-weight: 500; font-style: normal; }
+@font-face { font-family: "PlexCn"; src: url("fonts/PlexCn-SemiBold.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "PlexCn"; src: url("fonts/PlexCn-Bold.ttf");     font-weight: 700; font-style: normal; }
+
+@font-face { font-family: "PlexMono"; src: url("fonts/PlexMono-Regular.ttf");  font-weight: 400; }
+@font-face { font-family: "PlexMono"; src: url("fonts/PlexMono-SemiBold.ttf"); font-weight: 600; }
+
+:root {
+  /* document chrome */
+  --ink:        #0b0b0b;
+  --ink-2:      #3a3936;
+  --ink-3:      #52514e;
+  --muted:      #898781;
+  --rule:       #e1e0d9;
+  --rule-2:     #c9c8c0;
+  --surface:    #fcfcfb;
+  --wash:       #f4f4f0;
+  --brand:      #0f3d31;   /* deep green — single chrome accent */
+  --brand-2:    #1baf7a;   /* accent tint */
+  --brand-wash: #eaf4ef;
+
+  /* validated categorical palette, light surface */
+  --s1: #2a78d6;  /* blue    */
+  --s2: #eb6834;  /* orange  */
+  --s3: #1baf7a;  /* aqua    */
+  --s4: #eda100;  /* yellow  */
+  --s5: #e87ba4;  /* magenta */
+  --s6: #008300;  /* green   */
+  --s7: #4a3aa7;  /* violet  */
+  --s8: #e34948;  /* red     */
+  --neutral: #c9c8c0;
+
+  /* sequential blue ramp */
+  --q1: #cde2fb; --q2: #9ec5f4; --q3: #5598e7; --q4: #2a78d6; --q5: #184f95;
+}
+
+/* --------------------------------------------------------------- pages -- */
+
+@page {
+  size: A4;
+  margin: 20mm 22mm 17mm 22mm;
+  @top-left {
+    content: string(doc-short);
+    font-family: "PlexCn"; font-size: 7.2pt; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--muted);
+    vertical-align: bottom; padding-bottom: 3mm;
+  }
+  @top-right {
+    content: string(sect);
+    font-family: "PlexCn"; font-size: 7.2pt; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--muted);
+    vertical-align: bottom; padding-bottom: 3mm;
+  }
+  @bottom-left {
+    content: "Compiled from public sources · " string(doc-date);
+    font-family: "PlexCn"; font-size: 6.8pt; color: var(--muted);
+    vertical-align: top; padding-top: 3mm;
+  }
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font-family: "PlexCn"; font-size: 7.4pt; font-weight: 500; color: var(--ink-3);
+    vertical-align: top; padding-top: 3mm;
+  }
+}
+
+@page cover { margin: 0; @top-left { content: none } @top-right { content: none }
+              @bottom-left { content: none } @bottom-right { content: none } }
+@page plain { @top-left { content: none } @top-right { content: none } }
+@page landscape { size: A4 landscape; margin: 16mm 16mm 16mm 16mm; }
+
+/* ---------------------------------------------------------------- base -- */
+
+* { box-sizing: border-box; }
+
+html { font-family: "Spectral", serif; font-size: 10.05pt; line-height: 1.5;
+       color: var(--ink); background: #fff;
+       -weasy-hyphens: auto; }
+body { margin: 0; hyphens: auto; text-align: justify;
+       -weasy-hyphenate-limit-chars: 6 3 3; -weasy-hyphenate-limit-zone: 2%; }
+
+p { margin: 0 0 5.5pt 0; orphans: 2; widows: 2; }
+p.lead { font-size: 10.6pt; line-height: 1.5; color: var(--ink-2); }
+strong, b { font-weight: 600; }
+em { font-style: italic; }
+a { color: inherit; text-decoration: none; }
+sup { font-size: .68em; vertical-align: super; line-height: 0; }
+sup.ref { font-family: "PlexCn"; font-weight: 600; color: var(--brand); }
+
+.small  { font-size: 8.3pt; }
+.tnum   { font-variant-numeric: tabular-nums; }
+.mono   { font-family: "PlexMono"; font-size: .88em; }
+.nowrap { white-space: nowrap; }
+
+/* ------------------------------------------------------------ headings -- */
+
+h1, h2, h3, h4, h5 { font-family: "PlexCn"; font-weight: 600; color: var(--ink);
+                     text-align: left; hyphens: none; margin: 0; }
+
+h1 { /* part / section opener */
+  font-size: 21pt; line-height: 1.12; letter-spacing: -.012em; font-weight: 600;
+  margin: 0 0 6mm 0; padding-top: 1mm;
+  string-set: sect content(text);
+  bookmark-level: 1;
+  break-before: page;
+}
+h1::before {
+  content: attr(data-num);
+  display: block; font-family: "PlexCn"; font-size: 8pt; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--brand-2);
+  margin-bottom: 2.6mm;
+}
+h1::after { content: ""; display: block; height: 1.6pt; width: 26mm;
+            background: var(--brand); margin-top: 4mm; }
+
+h2 { font-size: 12.4pt; line-height: 1.2; letter-spacing: -.005em;
+     margin: 8mm 0 3mm 0; color: var(--brand); bookmark-level: 2;
+     break-after: avoid; }
+h2 .n { color: var(--muted); font-weight: 500; margin-right: 2.2mm;
+        font-variant-numeric: tabular-nums; }
+
+h3 { font-size: 9.9pt; line-height: 1.25; margin: 5.5mm 0 2mm 0; color: var(--ink);
+     bookmark-level: 3; break-after: avoid; }
+h4 { font-size: 8.6pt; letter-spacing: .07em; text-transform: uppercase;
+     color: var(--ink-3); margin: 4.5mm 0 1.6mm 0; break-after: avoid; }
+
+h1 + p, h2 + p, h3 + p { margin-top: 0; }
+
+/* --------------------------------------------------------------- cover -- */
+
+.cover { string-set: doc-short "Morocco Organic Market Report 2026", doc-date "Edition · August 2026";
+         page: cover; break-after: page; height: 297mm; width: 210mm;
+         position: relative; color: #fff; overflow: hidden;
+         background: var(--brand); }
+.cover .field { position: absolute; inset: 0;
+  background:
+    radial-gradient(120% 85% at 88% 6%, rgba(27,175,122,.42) 0%, rgba(27,175,122,0) 58%),
+    radial-gradient(90% 70% at 4% 96%, rgba(42,120,214,.30) 0%, rgba(42,120,214,0) 60%),
+    linear-gradient(168deg, #124434 0%, #0f3d31 46%, #0a2b23 100%);
+}
+.cover .grid { position: absolute; inset: 0; opacity: .16;
+  background-image: linear-gradient(rgba(255,255,255,.55) .35pt, transparent .35pt),
+                    linear-gradient(90deg, rgba(255,255,255,.55) .35pt, transparent .35pt);
+  background-size: 9mm 9mm; }
+.cover .inner { position: absolute; inset: 0; padding: 26mm 24mm 20mm 24mm;
+                display: block; }
+.cover .eyebrow { font-family: "PlexCn"; font-size: 8.2pt; letter-spacing: .26em;
+                  text-transform: uppercase; color: rgba(255,255,255,.72); }
+.cover .eyebrow .dot { color: var(--brand-2); }
+.cover .t { font-family: "PlexCn"; font-weight: 600; font-size: 40pt; line-height: 1.02;
+              letter-spacing: -.024em; color: #fff; margin: 12mm 0 0 0; break-before: auto; }
+.cover .t::after { display: none; }
+.cover .t .thin { font-weight: 300; color: rgba(255,255,255,.80); display: block; }
+.cover .sub { font-family: "Spectral"; font-size: 12.4pt; line-height: 1.45;
+              color: rgba(255,255,255,.86); margin-top: 9mm; max-width: 132mm;
+              text-align: left; hyphens: none; }
+.cover .hr { height: 1.4pt; width: 30mm; background: var(--brand-2); margin: 11mm 0 0 0; }
+
+.cover .stats { position: absolute; left: 22mm; right: 22mm; bottom: 46mm;
+                display: table; width: calc(100% - 44mm); table-layout: fixed;
+                border-top: .5pt solid rgba(255,255,255,.28); padding-top: 5mm; }
+.cover .stat { display: table-cell; padding-right: 6mm; vertical-align: top; }
+.cover .stat .v { font-family: "PlexCn"; font-size: 19pt; font-weight: 600;
+                  color: #fff; line-height: 1; letter-spacing: -.02em; }
+.cover .stat .v .u { font-size: 9.5pt; font-weight: 400; color: rgba(255,255,255,.72);
+                     margin-left: 1mm; }
+.cover .stat .k { font-family: "PlexCn"; font-size: 7.2pt; letter-spacing: .1em;
+                  text-transform: uppercase; color: rgba(255,255,255,.62);
+                  margin-top: 2mm; line-height: 1.3; }
+
+.cover .foot { position: absolute; left: 22mm; right: 22mm; bottom: 20mm;
+               border-top: .5pt solid rgba(255,255,255,.22); padding-top: 4mm;
+               font-family: "PlexCn"; font-size: 7.6pt; color: rgba(255,255,255,.62);
+               letter-spacing: .04em; }
+.cover .foot .r { float: right; }
+
+/* ----------------------------------------------------------------- toc -- */
+
+.toc { page: plain; }
+.toc h1 { break-before: page; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li { break-inside: avoid; }
+.toc .l1 > a { font-family: "PlexCn"; font-size: 10pt; font-weight: 600; color: var(--ink);
+               display: block; padding: 2.6mm 0 1.3mm 0; border-top: .5pt solid var(--rule); }
+.toc .l1:first-child > a { border-top: none; }
+.toc .l2 a { font-family: "PlexCn"; font-size: 8.6pt; font-weight: 400; color: var(--ink-3);
+             display: block; padding: .85mm 0 .85mm 7mm; }
+.toc a::after { content: target-counter(attr(href), page);
+                float: right; font-variant-numeric: tabular-nums; color: var(--muted);
+                font-weight: 400; }
+.toc .l1 > a::after { color: var(--brand); font-weight: 600; }
+
+/* --------------------------------------------------------------- rules -- */
+
+.hr        { border: 0; border-top: .5pt solid var(--rule); margin: 6mm 0; }
+.hr-strong { border: 0; border-top: 1pt solid var(--brand); margin: 6mm 0; width: 20mm; }
+
+/* --------------------------------------------------------------- lists -- */
+
+ul, ol { margin: 0 0 5.5pt 0; padding-left: 4.6mm; }
+li { margin-bottom: 1.9mm; }
+li::marker { color: var(--brand-2); }
+ol li::marker { color: var(--muted); font-family: "PlexCn"; font-size: .9em; }
+ul.tight li, ol.tight li { margin-bottom: .9mm; }
+ul.plain { list-style: none; padding-left: 0; }
+
+dl.defs { margin: 0; }
+dl.defs dt { font-family: "PlexCn"; font-weight: 600; font-size: 8.8pt; color: var(--brand);
+             margin-top: 3mm; }
+dl.defs dd { margin: .6mm 0 0 0; }
+
+/* -------------------------------------------------------------- tables -- */
+
+table { width: 100%; border-collapse: collapse; margin: 3.5mm 0 2mm 0;
+        font-family: "PlexCn"; font-size: 7.7pt; line-height: 1.34;
+        text-align: left; hyphens: none; }
+caption { caption-side: top; text-align: left; break-after: avoid; font-family: "PlexCn";
+          font-size: 7.6pt; font-weight: 600; letter-spacing: .05em;
+          text-transform: uppercase; color: var(--brand);
+          padding-bottom: 1.8mm; }
+thead { display: table-header-group; }
+th { font-weight: 600; color: var(--ink); font-size: 7.2pt; letter-spacing: .03em;
+     border-bottom: .9pt solid var(--ink-3); padding: 1.7mm 2mm 1.5mm 0;
+     vertical-align: bottom; }
+td { padding: 1.5mm 2mm 1.4mm 0; border-bottom: .4pt solid var(--rule);
+     vertical-align: top; color: var(--ink-2); }
+th:last-child, td:last-child { padding-right: 0; }
+tbody tr:last-child td { border-bottom: .9pt solid var(--rule-2); }
+.num-col, td.num, th.num { text-align: right; font-variant-numeric: tabular-nums;
+                           white-space: nowrap; }
+tr.total td { font-weight: 600; color: var(--ink); border-top: .7pt solid var(--ink-3);
+              border-bottom: none; background: var(--wash); }
+tr.hi td { background: var(--brand-wash); color: var(--ink); font-weight: 600; }
+table.compact { font-size: 7.1pt; }
+table.compact td, table.compact th { padding-top: 1.15mm; padding-bottom: 1.05mm; }
+tbody tr { break-inside: avoid; }
+.tbl-note { font-family: "PlexCn"; font-size: 6.9pt; color: var(--muted);
+            line-height: 1.4; margin: 1.6mm 0 5mm 0; text-align: left; hyphens: none; }
+.tbl-note b { color: var(--ink-3); font-weight: 600; }
+
+.rank { font-family: "PlexCn"; font-weight: 600; color: var(--muted);
+        font-variant-numeric: tabular-nums; }
+tr.hi .rank { color: var(--brand); }
+
+/* --------------------------------------------------------- stat panels -- */
+
+.kpis { display: table; width: 100%; table-layout: fixed; border-collapse: separate;
+        border-spacing: 3mm 0; margin: 4mm -3mm 5mm -3mm; width: calc(100% + 6mm);
+        break-inside: avoid; }
+.kpi { display: table-cell; vertical-align: top; padding: 3.4mm 3.2mm;
+       background: var(--wash); border-top: 1.4pt solid var(--brand); }
+.kpi .v { font-family: "PlexCn"; font-size: 15.5pt; font-weight: 600; line-height: 1;
+          color: var(--brand); letter-spacing: -.02em; }
+.kpi .v .u { font-size: 8pt; font-weight: 500; color: var(--ink-3); margin-left: .8mm; }
+.kpi .k { font-family: "PlexCn"; font-size: 7pt; letter-spacing: .08em;
+          text-transform: uppercase; color: var(--ink-3); margin-top: 2mm; line-height: 1.3; }
+.kpi .n { font-family: "PlexCn"; font-size: 6.6pt; color: var(--muted); margin-top: 1.4mm;
+          line-height: 1.35; }
+
+/* ---------------------------------------------------------- call-outs --- */
+
+.callout { break-inside: avoid; background: var(--wash); border-left: 1.6pt solid var(--brand);
+           padding: 3.2mm 4mm 2.6mm 4mm; margin: 4mm 0 5mm 0; }
+.callout .t { font-family: "PlexCn"; font-size: 7.4pt; font-weight: 600; letter-spacing: .1em;
+              text-transform: uppercase; color: var(--brand); margin-bottom: 1.8mm; }
+.callout p:last-child { margin-bottom: 0; }
+.callout.warn { border-left-color: #d03b3b; background: #fdf3f2; }
+.callout.warn .t { color: #a52a2a; }
+.callout.data { border-left-color: var(--s1); background: #f2f7fd; }
+.callout.data .t { color: #1c5cab; }
+
+blockquote { margin: 4mm 0 5mm 0; padding-left: 5mm; border-left: 1.2pt solid var(--rule-2);
+             font-style: italic; color: var(--ink-3); }
+blockquote cite { display: block; font-style: normal; font-family: "PlexCn"; font-size: 7.4pt;
+                  color: var(--muted); margin-top: 1.8mm; }
+
+/* ------------------------------------------------------------- figures -- */
+
+figure { margin: 5mm 0 6mm 0; break-inside: avoid; }
+figure.wide { break-inside: auto; }
+figcaption { break-after: avoid; font-family: "PlexCn"; font-size: 7.6pt; font-weight: 600; letter-spacing: .05em;
+             text-transform: uppercase; color: var(--brand); margin-bottom: 2.5mm; }
+figcaption .sub { display: block; font-weight: 400; letter-spacing: 0; text-transform: none;
+                  color: var(--ink-3); font-size: 7.6pt; margin-top: 1mm; }
+figure .src { font-family: "PlexCn"; font-size: 6.8pt; color: var(--muted); margin-top: 2.2mm;
+              line-height: 1.4; text-align: left; }
+
+/* bar chart built in HTML/CSS ------------------------------------------- */
+.bars { margin: 0; }
+.bar-row { display: table; width: 100%; table-layout: fixed; margin-bottom: 1.5mm; }
+.bar-row .lab { display: table-cell; width: 34mm; font-family: "PlexCn"; font-size: 7.3pt;
+                color: var(--ink-2); padding-right: 2.5mm; vertical-align: middle;
+                line-height: 1.2; }
+.bar-row .track { display: table-cell; vertical-align: middle; }
+.bar-row .val { display: table-cell; width: 21mm; text-align: right; font-family: "PlexCn";
+                font-size: 7.3pt; font-variant-numeric: tabular-nums; color: var(--ink-2);
+                padding-left: 2.5mm; vertical-align: middle; font-weight: 500; }
+.bar { height: 3.4mm; background: var(--s1); border-radius: 0 1.1mm 1.1mm 0; }
+.bar-row.hi .lab, .bar-row.hi .val { color: var(--brand); font-weight: 600; }
+.bar-row.hi .bar { background: var(--brand); }
+.bar-row.dim .bar { background: var(--neutral); }
+.bar.c2 { background: var(--s2); } .bar.c3 { background: var(--s3); }
+.bar.c4 { background: var(--s4); } .bar.c6 { background: var(--s6); }
+
+/* stacked segments with 2px surface gaps */
+.stack { display: table; width: 100%; table-layout: fixed; height: 5mm; }
+.stack .seg { display: table-cell; height: 5mm; border-right: 1.5pt solid #fff; }
+.stack .seg:last-child { border-right: none; }
+
+.legend { margin-top: 2.8mm; font-family: "PlexCn"; font-size: 7pt; color: var(--ink-3);
+          line-height: 1.6; text-align: left; }
+.legend .it { display: inline-block; margin-right: 5mm; white-space: nowrap; }
+.legend .sw { display: inline-block; width: 2.6mm; height: 2.6mm; border-radius: .5mm;
+              margin-right: 1.4mm; vertical-align: -.2mm; }
+
+/* two-column helper ----------------------------------------------------- */
+.cols2 { display: table; width: 100%; table-layout: fixed; border-spacing: 5mm 0;
+         margin-left: -5mm; width: calc(100% + 10mm); }
+.cols2 > div { display: table-cell; vertical-align: top; }
+
+/* SWOT ------------------------------------------------------------------ */
+.swot { display: table; width: 100%; table-layout: fixed; border-spacing: 3mm; margin: 3mm -3mm; }
+.swot .r { display: table-row; }
+.swot .c { display: table-cell; width: 50%; padding: 3.2mm 3.6mm; background: var(--wash);
+           vertical-align: top; break-inside: avoid; }
+.swot .c h5 { font-family: "PlexCn"; font-size: 7.6pt; letter-spacing: .1em;
+              text-transform: uppercase; margin-bottom: 2mm; }
+.swot .s { border-top: 1.4pt solid var(--s6); }  .swot .s h5 { color: #006300; }
+.swot .w { border-top: 1.4pt solid var(--s2); }  .swot .w h5 { color: #b04513; }
+.swot .o { border-top: 1.4pt solid var(--s1); }  .swot .o h5 { color: #1c5cab; }
+.swot .t { border-top: 1.4pt solid var(--s8); }  .swot .t h5 { color: #a52a2a; }
+.swot ul { font-family: "PlexCn"; font-size: 7.4pt; line-height: 1.4; padding-left: 3.8mm;
+           margin: 0; text-align: left; }
+.swot li { margin-bottom: 1.4mm; }
+
+/* scorecard ------------------------------------------------------------- */
+.dots { font-family: "PlexCn"; letter-spacing: .06em; white-space: nowrap; }
+.dots .on  { color: var(--brand); }
+.dots .off { color: var(--rule-2); }
+
+/* sources --------------------------------------------------------------- */
+.sources { font-size: 7.6pt; line-height: 1.4; }
+.sources ol { padding-left: 7mm; }
+.sources li { margin-bottom: 1.5mm; break-inside: avoid; }
+.sources .u { font-family: "PlexMono"; font-size: 6.5pt; color: var(--ink-3);
+              word-break: break-all; display: block; }
+
+/* utility --------------------------------------------------------------- */
+.pb   { break-before: page; }
+.avoid{ break-inside: avoid; }
+.mt0  { margin-top: 0; } .mb0 { margin-bottom: 0; }
+.center { text-align: center; }
+.landscape { page: landscape; }
+
+/* ------------------------------------------------------- evidence grades -- */
+.gr { font-family: "PlexCn"; font-size: 6.4pt; font-weight: 700; line-height: 1;
+      display: inline-block; width: 3.6mm; height: 3.6mm; text-align: center;
+      padding-top: .85mm; border-radius: .6mm; color: #fff; }
+.gr-A { background: #0f3d31; }
+.gr-B { background: #4f8f7c; }
+.gr-C { background: #b9a24a; }
+.gr-D { background: #c26a56; }
+.gr-none { background: transparent; color: var(--rule-2); }
+.nil { color: var(--rule-2); }
+
+.gradekey { font-family: "PlexCn"; font-size: 7.2pt; line-height: 1.55; margin: 3mm 0 5mm 0;
+            text-align: left; }
+.gradekey .row { display: block; margin-bottom: 1.2mm; }
+.gradekey .gr { margin-right: 2mm; vertical-align: -.9mm; }
+
+table.srcs td { font-size: 6.9pt; }
+table.srcs .u { font-family: "PlexMono"; font-size: 6pt; color: var(--muted);
+                word-break: break-all; display: block; margin-top: .5mm; }
+.sources table { margin-top: 2mm; }
+
+/* thesis / pull statement */
+.thesis { break-inside: avoid; margin: 5mm 0 6mm 0; padding: 4mm 0 0 0;
+          border-top: 1.6pt solid var(--brand); }
+.thesis p { font-family: "PlexCn"; font-size: 11.4pt; line-height: 1.34; font-weight: 400;
+            color: var(--brand); text-align: left; hyphens: none; margin: 0; }
+
+/* numbered finding list */
+ol.findings { list-style: none; padding-left: 0; counter-reset: f; }
+ol.findings > li { counter-increment: f; position: relative; padding-left: 9mm;
+                   margin-bottom: 3.4mm; break-inside: avoid; }
+ol.findings > li::before {
+  content: counter(f, decimal-leading-zero);
+  position: absolute; left: 0; top: .3mm;
+  font-family: "PlexCn"; font-size: 8.4pt; font-weight: 600; color: var(--brand-2);
+  letter-spacing: .04em;
+}
+ol.findings > li b { color: var(--brand); }
+
+/* data-gap register */
+table.gaps td { vertical-align: top; }
+table.gaps .q { font-family: "PlexCn"; font-weight: 600; color: var(--ink); }
+
+/* tables whose columns must not be sized by content */
+table.fixed3 { table-layout: fixed; }
+table.fixed3 td, table.fixed3 th { padding-right: 4mm; }
+table.fixed3 td:last-child, table.fixed3 th:last-child { padding-right: 0; }

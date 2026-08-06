@@ -1,0 +1,6 @@
+# Font binaries are fetched by src/fonts/fetch-fonts.sh, not committed.
+src/fonts/*.ttf
+# Generated intermediate — the PDF is the committed artefact.
+src/report.rendered.html
+__pycache__/
+*.pyc
