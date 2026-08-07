@@ -4,3 +4,8 @@ src/fonts/*.ttf
 src/report.rendered.html
 __pycache__/
 *.pyc
+# Basemap geometry is fetched by visual/fetch-basemap.sh, not committed.
+visual/ne50.geojson
+visual/map.json
+visual/visual.html
+visual/visual.pdf
