@@ -1,0 +1,14 @@
+{
+  "organization": "urn:li:organization:2991575",
+  "vanityName": "algofame",
+  "capturedAt": "2026-08-10T06:05:00Z",
+  "description": {
+    "localized": {
+      "fr_FR": "FAME reconnects farmers and consumers!",
+      "en_US": "FAME is a Web3 platform built on Algorand Technologies transforming the global food system by connecting farmers to wholesalers and consumers directly.\n3 missions:\n💰 Financial inclusion\n👨🏽‍🌾 Food transparency \n🗳️ Decentralized Govenance \n\njoin us, let's build a better future together: \nhttps://linktr.ee/algofame"
+    },
+    "preferredLocale": {"country": "US", "language": "en"}
+  },
+  "localizedSpecialties": ["Philosophie", "Arts plastiques", "Photographie", "psychologie"],
+  "localizedWebsite": "https://algofame.org"
+}
