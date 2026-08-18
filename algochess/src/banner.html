@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: Geist; src: url('file:///workspace/algochess/node_modules/geist/dist/fonts/geist-sans/Geist-Regular.woff2'); font-weight: 400; }
+@font-face { font-family: Geist; src: url('file:///workspace/algochess/node_modules/geist/dist/fonts/geist-sans/Geist-SemiBold.woff2'); font-weight: 600; }
+@font-face { font-family: Geist; src: url('file:///workspace/algochess/node_modules/geist/dist/fonts/geist-sans/Geist-Bold.woff2'); font-weight: 700; }
+@font-face { font-family: GeistMono; src: url('file:///workspace/algochess/node_modules/geist/dist/fonts/geist-mono/GeistMono-Medium.woff2'); font-weight: 500; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1500px; height: 500px; overflow: hidden; }
+body {
+  font-family: Geist, sans-serif;
+  background:
+    radial-gradient(1000px 600px at 12% -10%, rgba(61,220,151,0.13), transparent 60%),
+    radial-gradient(900px 500px at 95% 115%, rgba(230,200,138,0.10), transparent 55%),
+    linear-gradient(160deg, #0d1219 0%, #0a0d12 60%, #090c11 100%);
+  position: relative; color: #f4f7f5;
+  display: flex; align-items: center;
+}
+.watermark {
+  font-family: 'DejaVu Sans', sans-serif;
+  position: absolute; right: -60px; top: -140px; font-size: 720px; line-height: 1;
+  color: rgba(244,247,245,0.035); user-select: none;
+}
+.left { padding-left: 96px; width: 830px; position: relative; z-index: 2; }
+.lockup { display: flex; align-items: center; gap: 18px; }
+.lockup .kn { font-family: 'DejaVu Sans', sans-serif; font-size: 72px; color: #f4f7f5; text-shadow: 0 0 26px rgba(61,220,151,0.45); }
+.lockup .name { font-size: 68px; font-weight: 700; letter-spacing: -2px; }
+.lockup .name em { font-style: normal; color: #3ddc97; }
+.tag { margin-top: 22px; font-size: 33px; font-weight: 600; letter-spacing: -0.5px; color: #e8ede9; }
+.tag .gold { color: #e6c88a; }
+.sub { margin-top: 14px; font-size: 20px; color: #9aa7a0; }
+.sub b { color: #cdd6d0; font-weight: 600; }
+.dot { color: #3ddc97; padding: 0 10px; }
+.card {
+  position: absolute; right: 120px; top: 50%; transform: translateY(-50%) rotate(-2.5deg);
+  width: 380px; padding: 30px 32px 28px; border-radius: 26px;
+  background: linear-gradient(165deg, rgba(255,255,255,0.055), rgba(255,255,255,0.018));
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 30px 80px rgba(0,0,0,0.55);
+  text-align: center; z-index: 2;
+}
+.tile {
+  width: 54px; height: 54px; margin: 0 auto; border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.16); background: rgba(255,255,255,0.06);
+  display: flex; align-items: center; justify-content: center;
+}
+.card h2 { margin-top: 14px; font-size: 24px; font-weight: 600; letter-spacing: -0.5px; }
+.card .meta { margin-top: 8px; font-size: 17px; color: #9aa7a0; }
+.card .win { margin-top: 4px; font-size: 17px; color: #9aa7a0; }
+.card .win span { font-family: GeistMono, monospace; color: #e6c88a; }
+.btn {
+  margin-top: 18px; padding: 14px 0; border-radius: 16px;
+  background: linear-gradient(180deg, #4ae5a4, #2fc985);
+  color: #06281a; font-weight: 700; font-size: 18px;
+  box-shadow: 0 6px 30px rgba(61,220,151,0.35);
+}
+svg.swords { width: 28px; height: 28px; stroke: #f4f7f5; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+</style></head><body>
+<div class="watermark">&#9822;</div>
+<div class="left">
+  <div class="lockup"><span class="kn">&#9822;</span><span class="name">algo<em>chess</em></span></div>
+  <div class="tag">Play chess. Win <span class="gold">real ALGO</span> — paid in seconds.</div>
+  <div class="sub"><b>1v1 duels</b><span class="dot">&#183;</span><b>beat the machine up to &#215;10</b><span class="dot">&#183;</span>escrowed on Algorand</div>
+</div>
+<div class="card">
+  <div class="tile"><svg class="swords" viewBox="0 0 24 24"><path d="M14.5 17.5 3 6V3h3l11.5 11.5"/><path d="m13 19 6-6"/><path d="m16 16 4 4"/><path d="m19 21 2-2"/><path d="M14.5 6.5 18 3h3v3l-3.5 3.5"/><path d="m5 14 4 4"/><path d="m7 17-3 3"/><path d="m3 19 2 2"/></svg></div>
+  <h2>A friend challenges you</h2>
+  <div class="meta">20 ALGO each &#183; 5 min chess</div>
+  <div class="win">Winner takes <span>36 ALGO</span></div>
+  <div class="btn">Accept the challenge</div>
+</div>
+</body></html>
