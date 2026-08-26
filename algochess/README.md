@@ -27,6 +27,7 @@ itself and can be read on any Algorand explorer:
 | `knight.png` | The mark on a transparent ground — always the whole piece, never a crop |
 | `knight-on-white.png` | The mark on white, for light backgrounds |
 | `icon-512.png` | App icon |
+| `x-header-1500x500.jpg` | X / Twitter header. The bottom-left is dark and empty on purpose — the profile picture lands there |
 
 **Colours** — ground `#05070a` · cyan `#22e3e0` · gold `#e6c88a` · ink `#f2f6f8`
 
