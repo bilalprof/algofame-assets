@@ -34,6 +34,19 @@ that prices a paid one — and the card says so rather than leaving it out.
 | `knight-on-white.png` | The mark on white, for light backgrounds |
 | `icon-512.png` | App icon |
 | `x-header-1500x500.jpg` | X / Twitter header. The bottom-left is dark and empty on purpose — the profile picture lands there |
+| `wordmark-light-ink.png` | "AlgoChess" alone, transparent, for dark or mid-tone video |
+| `wordmark-dark-ink.png` | The same wordmark in near-black, for light footage |
+| `lockup-light-ink.png` | The mark and the wordmark together, spaced as they are on the cards |
+| `domain-light-ink.png` | "algochess.org", with `.org` in the brand cyan |
+
+The four transparent files are trimmed to their own ink — no invisible margin —
+so an editor can position them by their real edges. They are cut from the same
+Geist Bold at the same letter-spacing as the launch cards, rendered large
+(214 px tall for the wordmark) so they scale down cleanly onto 4K.
+
+The light-ink files are near-white (#f2f6f8): legible on dark and mid-tone
+footage, and almost invisible on white, which is what `wordmark-dark-ink.png`
+is for.
 
 **Colours** — ground `#05070a` · cyan `#22e3e0` · gold `#e6c88a` · ink `#f2f6f8`
 
