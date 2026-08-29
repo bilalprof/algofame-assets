@@ -12,13 +12,19 @@ Free to use when writing about AlgoChess. Please don't restyle the mark.
 |---|---|---|
 | `x-launch-1600x900.png` | 1600×900 | Launch card — "You've won thousands of games. You were paid for none of them." |
 | `x-onchain-proof-1600x900.png` | 1600×900 | Proof card — the game written into its own payout transaction |
+| `x-friendly-1600x900.png` | 1600×900 | Friendly games — "Send one link. That's the whole sign-up." |
 
-Both cards show a real MainNet duel settled on 25 August 2026: 20 ALGO escrowed,
+The first two cards show a real MainNet duel settled on 25 August 2026: 20 ALGO escrowed,
 18.0449 ALGO to the winner, 2.0000 ALGO rake, released by the contract seven
 minutes after checkmate. The moves are stored in the settlement transaction
 itself and can be read on any Algorand explorer:
 
 `allo.info/tx/4IXCEK45D7UNVDJKWLGUVVJKBIQJHMWPV43NSLWMILKHXHBJIDNA`
+
+The friendly card is about the other half of the site: a game against a person
+with no stake, no wallet and no account, at `algochess.org/friendly`. Those
+games are unrated by design — a free game must never be able to move a rating
+that prices a paid one — and the card says so rather than leaving it out.
 
 ## brand/
 
