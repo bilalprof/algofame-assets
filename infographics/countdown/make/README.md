@@ -18,9 +18,17 @@ fonts and the mark, so the card of any day is rebuilt pixel for pixel.
   -0.07em, gold gradient #fff3cf to #e6c88a to #b8924e, a soft gold glow.
   Under it "DAYS TO GO" in mono, tracked 0.42em.
 - The knight (knight-full.png, the whole piece, never a crop) at the right,
-  760px tall, with a cyan rim glow; it may overlap the number.
+  820px tall, `right: -12px; top: 120px`, with a cyan rim glow. It is the
+  second hero and it may overlap the number, which paints over it.
+  Owner, 2026-09-13: "bring the horse more to the center and get it bigger."
+  It grew from 760px and moved 28px in from the edge; anything much larger
+  ate the date and the headline, which is why the two of them are now
+  `position: relative` (an absolutely positioned image paints ABOVE ordinary
+  text, so the words simply vanished behind it) and the headline keeps its
+  own 500px column clear of the piece.
 - Eyebrow above the number: "The mine opens · September 20", cyan dot.
-- One sentence under the number: "Every staked game will mine CHESS.
+- One sentence under the number, in a 500px column at 54px so it never runs
+  under the knight: "Every staked game will mine CHESS.
   Nothing is sold. The board is the only door in." with "mine CHESS" in gold.
 - Three glass facts: 1 : 1, 0, 20 M. Then the supply strip to scale
   (al-Suli half of everything, the striped sliver for the last fifteen),

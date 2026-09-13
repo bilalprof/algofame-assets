@@ -25,15 +25,15 @@ html, body {{ margin: 0; background: #05070a; }}
 .brand img {{ height: 44px; width: auto; }}
 .brand .c {{ color: #22e3e0; }}
 .brand .tag {{ margin-left: auto; font-family: GM, monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #e6c88a; border: 1px solid rgba(230,200,138,0.45); border-radius: 999px; padding: 8px 16px; }}
-.knight {{ position: absolute; right: -40px; top: 150px; height: 760px; width: auto; filter: drop-shadow(0 0 60px rgba(34,227,224,0.45)) drop-shadow(0 0 140px rgba(34,227,224,0.18)); }}
-.eyebrow {{ margin-top: 64px; font-family: GM, monospace; font-size: 22px; letter-spacing: 0.32em; text-transform: uppercase; color: #22e3e0; display: flex; align-items: center; gap: 14px; }}
+.knight {{ position: absolute; right: -12px; top: 120px; height: 820px; width: auto; filter: drop-shadow(0 0 60px rgba(34,227,224,0.45)) drop-shadow(0 0 140px rgba(34,227,224,0.18)); }}
+.eyebrow {{ position: relative; margin-top: 64px; font-family: GM, monospace; font-size: 22px; letter-spacing: 0.32em; text-transform: uppercase; color: #22e3e0; display: flex; align-items: center; gap: 14px; }}
 .eyebrow i {{ display: inline-block; width: 10px; height: 10px; border-radius: 999px; background: #22e3e0; box-shadow: 0 0 16px rgba(34,227,224,0.9); }}
 .big {{ position: relative; margin: -30px 0 0 -14px; font-size: 560px; line-height: 0.9; font-weight: 700; letter-spacing: -0.07em; font-variant-numeric: tabular-nums;
   background: linear-gradient(180deg, #fff3cf 0%, #e6c88a 42%, #b8924e 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
   filter: drop-shadow(0 0 40px rgba(230,200,138,0.35)); }}
 .days {{ margin-top: -18px; font-family: GM, monospace; font-size: 34px; letter-spacing: 0.42em; text-transform: uppercase; color: #f2f6f8; }}
 .days span {{ color: #838f9c; }}
-h1 {{ margin: 36px 0 0; max-width: 700px; font-size: 58px; line-height: 1.04; letter-spacing: -0.035em; font-weight: 600; color: #f2f6f8; text-wrap: balance; }}
+h1 {{ position: relative; margin: 36px 0 0; max-width: 500px; font-size: 54px; line-height: 1.04; letter-spacing: -0.035em; font-weight: 600; color: #f2f6f8; text-wrap: balance; }}
 h1 .gold {{ color: #e6c88a; }}
 .facts {{ margin-top: 34px; display: flex; gap: 14px; }}
 .fact {{ flex: 1 1 0; border-radius: 14px; border: 1px solid rgba(255,255,255,0.09); background: linear-gradient(180deg, rgba(143,154,164,0.09), rgba(143,154,164,0.03)); box-shadow: inset 0 1px 0 rgba(255,255,255,0.12); padding: 18px 20px; display: flex; flex-direction: column; gap: 6px; }}
