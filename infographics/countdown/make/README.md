@@ -39,6 +39,24 @@ fonts and the mark, so the card of any day is rebuilt pixel for pixel.
 - House rules: no em dash, no promise on price, no "rake" or "house",
   AlgoChess with two capitals, knight-full.png as the only mark.
 
+## Day zero, the finale
+
+`build.py 0` is the same card with five lines changed, and that is on
+purpose: twelve days have taught the eye one shape, so the last one keeps
+the giant gold numeral and the knight and simply lands on 0. The pill stops
+saying "not live yet", the line under the number says WHEN instead of how
+long ("Today · 17:00 UTC"), and the headline finally states the thing the
+whole series was building to and never said outright:
+
+    Win or lose, every decisive staked game mines CHESS.
+
+That is what the contracts do, checked before it was written: escrow-duel
+mints for player1 AND player2 on every decisive result, house-challenge
+mints for the challenger whether they beat Stockfish or lose to it, and only
+a draw mines nothing. The owner caught the earlier posts implying the winner
+alone mines (2026-09-19) — on a card about a token, a claim about who gets
+paid is the one thing that must come from the contract, never from memory.
+
 ## Rebuild the card for day N
 
     cd infographics/countdown/make

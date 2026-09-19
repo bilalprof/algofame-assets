@@ -6,6 +6,31 @@ def font(p): return base64.b64encode(open(p, 'rb').read()).decode()
 knight = base64.b64encode(open(os.path.join(HERE, 'knight-full.png'), 'rb').read()).decode()
 DAYS = int(sys.argv[1]) if len(sys.argv) > 1 else 12
 
+# DAY ZERO IS THE FINALE, and it is the same card with five lines changed.
+# The series has taught the eye one shape for twelve days — the giant gold
+# numeral, the knight crossing the middle — so the last one keeps it and lets
+# the numeral land on 0. Only the words move: the pill stops saying "not live
+# yet", the line under the number says WHEN instead of how long, and the
+# headline finally states the thing the whole countdown was building to and
+# that the earlier cards never said outright: BOTH players mine, win or lose.
+# That is what the contract does (escrow-duel.algo.ts mints for player1 and
+# player2 on every decisive result; house-challenge mints for the challenger
+# win or lose), and it is the most surprising true sentence we have.
+ZERO = DAYS == 0
+
+TAG = 'The CHESS token · opens today' if ZERO else 'The CHESS token · not live yet'
+EYEBROW = 'The mine opens · today' if ZERO else 'The mine opens · September 20'
+SUBLINE = ('Today <span>· 17:00 UTC</span>' if ZERO
+           else f"{'day' if DAYS == 1 else 'days'} <span>to go</span>")
+H1 = ('Win or lose, every decisive staked game mines <span class="gold">CHESS</span>. The board is the only door in.'
+      if ZERO
+      else 'Every staked game will <span class="gold">mine CHESS</span>. Nothing is sold. The board is the only door in.')
+FACT1 = ('Stake 1 ALGO, mine 1 CHESS. Both players mine, on their own stake.'
+         if ZERO else 'Stake 1 ALGO, mine 1 CHESS. Duel or Stockfish, every decisive game.')
+FACT2 = ('Zero premine, zero sale. The first coins in existence are minted tonight.'
+         if ZERO else 'Zero premine, zero sale. On day one nobody owns a coin.')
+FOOT = ('The bell rings at 17:00 UTC.' if ZERO else 'Be at the table when it opens.')
+
 # the supply, to scale: twenty pools halving, the striped sliver for the last fifteen
 segs = ''.join(
     f'<div style="flex: {50 / 2 ** i} 1 0px; background: {c}"></div>'
@@ -50,21 +75,21 @@ h1 .gold {{ color: #e6c88a; }}
 </style></head><body>
 <div class="card">
   <img class="knight" src="data:image/png;base64,{knight}" alt="">
-  <div class="brand"><img src="data:image/png;base64,{knight}" alt=""><span>Algo<span class="c">Chess</span></span><span class="tag">The CHESS token · not live yet</span></div>
-  <div class="eyebrow"><i></i>The mine opens · September 20</div>
+  <div class="brand"><img src="data:image/png;base64,{knight}" alt=""><span>Algo<span class="c">Chess</span></span><span class="tag">{TAG}</span></div>
+  <div class="eyebrow"><i></i>{EYEBROW}</div>
   <div class="big">{DAYS}</div>
-  <div class="days">{'day' if DAYS == 1 else 'days'} <span>to go</span></div>
-  <h1>Every staked game will <span class="gold">mine CHESS</span>. Nothing is sold. The board is the only door in.</h1>
+  <div class="days">{SUBLINE}</div>
+  <h1>{H1}</h1>
   <div class="facts">
-    <div class="fact"><span class="n">1 : 1</span><span class="l">Stake 1 ALGO, mine 1 CHESS. Duel or Stockfish, every decisive game.</span></div>
-    <div class="fact"><span class="n c">0</span><span class="l">Zero premine, zero sale. On day one nobody owns a coin.</span></div>
+    <div class="fact"><span class="n">1 : 1</span><span class="l">{FACT1}</span></div>
+    <div class="fact"><span class="n c">0</span><span class="l">{FACT2}</span></div>
     <div class="fact"><span class="n">20 M</span><span class="l">Twenty epochs named for the masters. When Fischer's last coin is mined, the story ends.</span></div>
   </div>
   <div class="strip">
     <div class="bar">{segs}</div>
     <div class="cap"><span>al-Suli · half of everything</span><span>Lucena · Ruy Lopez · Greco · Philidor · fifteen more</span></div>
   </div>
-  <div class="foot"><span class="z">Be at the table when it opens. <span>Every coin goes to the player who mined it.</span></span><span class="u">algochess.org/token</span></div>
+  <div class="foot"><span class="z">{FOOT} <span>Every coin goes to the player who mined it.</span></span><span class="u">algochess.org/token</span></div>
 </div>
 </body></html>'''
 open(f'mine-{DAYS}.html', 'w').write(html)
