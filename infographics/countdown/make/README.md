@@ -67,3 +67,7 @@ paid is the one thing that must come from the contract, never from memory.
 `shoot.mjs` launches Chromium at the path in the file (set
 `executablePath` to yours). The rendered series for 12 to 1 already sits
 one folder up.
+
+## Gold text rule
+
+Gradient-filled text (`background-clip: text; color: transparent`) must never carry a `text-shadow`: the shadow paints through the transparent glyphs and muddies the gold. Use a glyph-shaped `filter: drop-shadow(...)` on the element instead.
