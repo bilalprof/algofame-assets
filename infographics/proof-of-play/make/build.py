@@ -72,7 +72,7 @@ html, body {{ margin: 0; background: #05070a; }}
 .thesis {{ position: relative; text-shadow: 0 2px 18px rgba(5,7,10,0.9); margin-top: 26px; max-width: 580px; font-size: 49px; line-height: 1.16; letter-spacing: -0.035em; font-weight: 600; white-space: nowrap; }}
 .thesis .dim {{ color: #56616e; display: block; }}
 .thesis .now {{ color: #f2f6f8; display: block; margin-top: 8px; }}
-.thesis .gold {{ background: linear-gradient(180deg, #fff3cf 0%, #e6c88a 45%, #b8924e 100%); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 26px rgba(230,200,138,0.4)); }}
+.thesis .gold {{ text-shadow: none; background: linear-gradient(180deg, #fff3cf 0%, #e6c88a 45%, #b8924e 100%); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 2px 10px rgba(5,7,10,0.85)) drop-shadow(0 0 22px rgba(230,200,138,0.35)); }}
 .under {{ position: relative; text-shadow: 0 2px 14px rgba(5,7,10,0.95); margin-top: 20px; max-width: 470px; font-size: 22px; line-height: 1.42; color: #bcc6d0; }}
 
 /* The scale: one dot per million, 55 x 11 = 605, no partial row. */

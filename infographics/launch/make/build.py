@@ -73,13 +73,13 @@ html, body {{ margin: 0; background: #05070a; }}
 
 .hero {{ position: relative; z-index: 2; margin-top: 14px; font-size: {230 if LIVE else 210}px; line-height: 1; font-weight: 700; letter-spacing: -0.055em; font-variant-numeric: tabular-nums;
   background: linear-gradient(180deg, #fff6dd 0%, #e6c88a 44%, #b8924e 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
-  filter: drop-shadow(0 0 46px rgba(230,200,138,0.45)); text-shadow: 0 6px 40px rgba(5,7,10,0.9); }}
+  filter: drop-shadow(0 4px 14px rgba(5,7,10,0.85)) drop-shadow(0 0 40px rgba(230,200,138,0.42)); }}
 .herosub {{ position: relative; z-index: 2; text-shadow: 0 0 10px rgba(5,7,10,1), 0 2px 16px rgba(5,7,10,0.95); margin-top: 2px; font-family: GM, monospace; font-size: 27px; letter-spacing: 0.26em; text-transform: uppercase; color: #f2f6f8; }}
 
 .spacer {{ flex: 1 1 auto; }}
 
 .head {{ position: relative; z-index: 2; text-shadow: 0 2px 20px rgba(5,7,10,0.95), 0 0 46px rgba(5,7,10,0.85); font-size: 62px; line-height: 1.04; letter-spacing: -0.04em; font-weight: 600; color: #f2f6f8; max-width: 900px; }}
-.head .gold {{ background: linear-gradient(180deg, #fff3cf 0%, #e6c88a 45%, #b8924e 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }}
+.head .gold {{ text-shadow: none; background: linear-gradient(180deg, #fff3cf 0%, #e6c88a 45%, #b8924e 100%); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 2px 10px rgba(5,7,10,0.85)); }}
 .line {{ position: relative; z-index: 2; text-shadow: 0 2px 16px rgba(5,7,10,0.95); margin-top: 18px; font-size: 25px; line-height: 1.4; color: #bcc6d0; max-width: 820px; }}
 
 .facts {{ position: relative; z-index: 2; margin-top: 30px; display: flex; gap: 14px; }}
